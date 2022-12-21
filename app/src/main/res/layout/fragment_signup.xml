@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:layout_marginTop="69dp"
+                android:layout_gravity="center"
+                android:textColor="#4A4B4D"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_your_details_to_sign_up"
+                android:textColor="#7C7D7E"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:layout_marginTop="17dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37dp"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:paddingStart="34dp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/your_name"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:paddingStart="34dp"
+                android:textSize="14sp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/your_email"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:paddingStart="34dp"
+                android:textSize="14sp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/mobile_no"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:paddingStart="34dp"
+                android:textSize="14sp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/address"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:paddingStart="34dp"
+                android:textSize="14sp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/password"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"
+                android:paddingStart="34dp"
+                android:textSize="14sp"
+                android:background="@drawable/login_border_bg"
+                android:hint="@string/confirm_password"
+                tools:ignore="RtlSymmetry" />
+
+            <ImageButton
+                android:id="@+id/login_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_up_btn"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="26dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7C7D7E"
+                    android:text="@string/already_have_an_account"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txt_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:textColor="#FC6011"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

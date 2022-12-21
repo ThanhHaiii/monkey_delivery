@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">delivery_monkey_be</string>
+    <string name="app_name">Delivery</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_your_details_to_sign_up">Add your details to sign up</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="login">Login</string>
+    <string name="add_your_details_to_login">Add your details to login</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_login_with">or Login with</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="find_food_you_love">Find Food You Love</string>
+    <string name="todo">TODO</string>
+    <string name="tutorial_description">Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_descrip">Please enter your email to receive a link to create a new password via email</string>
+    <string name="send_otp_title">We have sent an OTP to your Mobile</string>
+    <string name="description_phone">Please check your mobile number 071*****12 continue to reset your password</string>
+    <string name="didn_t_receive">Didn\'t Receive?</string>
+    <string name="click_here">Click Here</string>
+    <string name="otp_mobile">*</string>
+    <string name="desserts">Desserts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="mes_pager_one">Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep</string>
+    <string name="mes_pager_two">Fast food delivery to your home, office wherever you are</string>
+    <string name="mes_pager_three">Real time tracking of your food on the app once you placed the order</string>
+
+    <string name="title_pager_one">Find Food You Love</string>
+    <string name="title_pager_two">Fast Delivery</string>
+    <string name="title_pager_three">Live Tracking</string>
+    <string name="new_password">New Password</string>
+    <string name="new_pass_description">Please enter your email to receive a link to create a new password via email</string>
 </resources>

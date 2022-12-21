@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/next_btn"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_page"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="66dp"
+            android:layout_weight="0.95" />
+
+        <RadioGroup
+            android:id="@+id/rg_point_payment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="31dp"
+            android:layout_weight="0.05"
+            android:gravity="center"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/next_btn"
+        android:contentDescription="@string/todo" />
+
+</RelativeLayout>

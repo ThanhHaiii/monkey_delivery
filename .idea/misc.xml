@@ -3,7 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/otp_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.10688956433637285" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_pager_tutorial.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/activity_reset_pass.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/activity_sent_otp.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/activity_slpash.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_started.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/circle_canvas.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_footer.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_header.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_new_password.xml" value="0.1950762098441854" />
+        <entry key="app/src/main/res/layout/fragment_page_tutorial.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_reset_pass.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_send_otp.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_tutorial.xml" value="0.10688956433637285" />
       </map>
     </option>
   </component>
