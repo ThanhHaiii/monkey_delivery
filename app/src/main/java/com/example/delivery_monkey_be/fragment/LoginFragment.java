@@ -14,7 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.delivery_monkey_be.R;
 
-public class LoginFragment extends Fragment {
+public class LoginFragment extends BaseFragment {
 
     private TextView signUp;
 
@@ -35,7 +35,7 @@ public class LoginFragment extends Fragment {
         signUp = view.findViewById(R.id.sign_up);
 
         signUp.setOnClickListener(view1 -> {
-            Fragment fragment = new PageTutorialFragment();
+            Fragment fragment = new ItemProductFragment();
             FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.container, fragment);

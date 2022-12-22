@@ -14,7 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.delivery_monkey_be.R;
 
-public class SignUpFragment extends Fragment {
+public class SignUpFragment extends BaseFragment {
 
     private TextView login;
 

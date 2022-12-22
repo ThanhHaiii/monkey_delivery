@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/tutorial_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/tutorial_one"
-        android:contentDescription="@string/todo" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/title_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/find_food_you_love"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:textColor="#4A4B4D"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"/>
+        <ImageView
+            android:id="@+id/tutorial_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/tutorial_two"
+            android:contentDescription="@string/todo"
+            app:layout_constraintDimensionRatio="423:443"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/description_tutorial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tutorial_description"
-        android:textSize="13sp"
-        android:textAlignment="center"
-        android:textColor="#7C7D7E"
-        android:layout_marginTop="34dp"/>
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/find_food_you_love"
+            android:textColor="#4A4B4D"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tutorial_img"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/description_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/tutorial_description"
+            android:textAlignment="center"
+            android:textColor="#7C7D7E"
+            android:textSize="13sp"
+            app:layout_constraintTop_toBottomOf="@+id/title_text"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

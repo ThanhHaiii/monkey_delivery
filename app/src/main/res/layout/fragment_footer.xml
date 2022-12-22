@@ -1,51 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_gravity="fill_vertical">
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/ic_menu"
-        android:layout_width="wrap_content"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="17dp"
-        android:background="@drawable/menu_indicator_selector"/>
+        android:layout_marginTop="40dp">
 
-    <ImageView
-        android:id="@+id/ic_offers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/ic_menu"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="44dp"
-        android:background="@drawable/offer_indicator_selector"/>
+        <com.example.delivery_monkey_be.view.CurvedBottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled" />
+    </FrameLayout>
 
     <ImageView
         android:id="@+id/ic_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/ic_offers"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/home_indicator_selector" />
+
+    <ImageView
+        android:id="@+id/ic_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:background="@drawable/home_indicator_selector"/>
+        android:layout_marginTop="55dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/menu_indicator_selector" />
+
+    <ImageView
+        android:id="@+id/ic_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_toEndOf="@+id/ic_menu"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/offer_indicator_selector" />
 
     <ImageView
         android:id="@+id/ic_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/ic_home"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="30dp"
-        android:background="@drawable/profile_indicator_selector"/>
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toStartOf="@+id/ic_more"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/profile_indicator_selector" />
 
     <ImageView
         android:id="@+id/ic_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="17dp"
-        android:background="@drawable/more_indicator_selector"/>
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo"
+        android:focusable="true"
+        android:src="@drawable/more_indicator_selector" />
 
 </RelativeLayout>

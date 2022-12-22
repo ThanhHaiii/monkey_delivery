@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.delivery_monkey_be.R;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends BaseFragment {
 
     @Nullable
     @Override

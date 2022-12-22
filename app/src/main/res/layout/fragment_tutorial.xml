@@ -2,9 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:clickable="true"
-    android:focusable="true">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/linear_layout"
@@ -40,7 +38,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/next_btn"
         android:contentDescription="@string/todo" />
 

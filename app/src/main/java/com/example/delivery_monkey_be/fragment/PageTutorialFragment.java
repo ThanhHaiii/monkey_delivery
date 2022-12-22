@@ -21,7 +21,7 @@ import com.example.delivery_monkey_be.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PageTutorialFragment extends Fragment {
+public class PageTutorialFragment extends BaseFragment {
 
     private FragmentActivity fragmentActivity;
 

@@ -14,7 +14,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.example.delivery_monkey_be.R;
 
-public class PagerFragment extends Fragment {
+public class PagerFragment extends BaseFragment {
     private int position;
     private int imgPage;
     private String description;

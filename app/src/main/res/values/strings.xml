@@ -36,4 +36,5 @@
     <string name="title_pager_three">Live Tracking</string>
     <string name="new_password">New Password</string>
     <string name="new_pass_description">Please enter your email to receive a link to create a new password via email</string>
+    <string name="started_description">Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep</string>
 </resources>
