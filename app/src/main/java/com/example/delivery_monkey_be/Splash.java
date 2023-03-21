@@ -15,7 +15,7 @@ public class Splash extends FragmentActivity {
         setContentView(R.layout.activity_slpash);
         new Handler().postDelayed(
                 () -> {
-                    Intent intent = new Intent(Splash.this, StartedActivity.class);
+                    Intent intent = new Intent(Splash.this, BlurView.class);
                     startActivity(intent);
                     finish();
                 }, 3000);
